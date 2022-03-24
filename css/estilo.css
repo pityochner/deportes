@@ -1,0 +1,18 @@
+nav {
+  background-color: #929292; }
+
+body {
+  background-color: #dadada; }
+  body .card {
+    background-color: #3f3f3f;
+    color: white;
+    padding-top: 1rem;
+    text-align: center; }
+  body .contacto {
+    width: 90%;
+    margin: 20px auto; }
+
+footer {
+  background-color: #929292;
+  text-align: center;
+  margin-top: 1rem; }

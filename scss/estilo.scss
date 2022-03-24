@@ -1,0 +1,24 @@
+$bg-oscuro: #3f3f3f;
+$bg-medio: #929292;
+$bg-claro: #dadada;
+nav {
+  background-color: $bg-medio;
+}
+body {
+  background-color: $bg-claro;
+  .card {
+    background-color: $bg-oscuro;
+    color: white;
+    padding-top: 1rem;
+    text-align: center;
+  }
+  .contacto {
+    width: 90%;
+    margin: 20px auto;
+  }
+}
+footer {
+  background-color: $bg-medio;
+  text-align: center;
+  margin-top: 1rem;
+}
