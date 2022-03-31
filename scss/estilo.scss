@@ -13,7 +13,7 @@ body {
     background-color: $bg-claro;
   } @else if $bg-calro == #909090{
     background-color: $bg-medio;
-  } @else if $bg-oscuro == #3f3f3f{
+  } @else if $bg-claro == #3f3f3f{
     background-color: $bg-oscuro;
   } @else {
     background-color: black;
