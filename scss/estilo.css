@@ -1,5 +1,5 @@
 nav {
-  background-color: #929292;
+  background-color: #909090;
 }
 
 body {
@@ -8,18 +8,18 @@ body {
 
 body .card {
   background-color: #3f3f3f;
-  color: white;
+  color: #dadada;
   padding-top: 1rem;
   text-align: center;
 }
 
 body .contacto {
-  width: 90%;
+  width: 80%;
   margin: 20px auto;
 }
 
 footer {
-  background-color: #929292;
+  background-color: #909090;
   text-align: center;
   margin-top: 1rem;
 }

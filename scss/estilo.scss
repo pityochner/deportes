@@ -1,19 +1,30 @@
 $bg-oscuro: #3f3f3f;
-$bg-medio: #929292;
+$bg-medio: #909090;
 $bg-claro: #dadada;
+@mixin color {
+  background-color: $bg-oscuro ;
+  color:$bg-claro ;
+}
 nav {
   background-color: $bg-medio;
 }
 body {
-  background-color: $bg-claro;
-  .card {
+  @if $bg-claro == #dadada {
+    background-color: $bg-claro;
+  } @else if $bg-calro == #909090{
+    background-color: $bg-medio;
+  } @else if $bg-oscuro == #3f3f3f{
     background-color: $bg-oscuro;
-    color: white;
+  } @else {
+    background-color: black;
+  }
+  .card {
+    @include color();
     padding-top: 1rem;
     text-align: center;
   }
   .contacto {
-    width: 90%;
+    width: 80%;
     margin: 20px auto;
   }
 }
