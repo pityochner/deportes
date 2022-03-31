@@ -29,7 +29,5 @@ body {
   }
 }
 footer {
-  @include color();
-  text-align: center;
-  margin-top: 1rem;
+  @extend .card;
 }
